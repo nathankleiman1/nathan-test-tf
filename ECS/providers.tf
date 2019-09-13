@@ -8,7 +8,7 @@ terraform {
     bucket  = "nathan-tmp-tf-state"
     key     = "ecs.tfstate"
     region  = "eu-west-1"
-    profile = "spotim-dev"
+    profile = "nathan-tmp"
   }
 }
 
@@ -19,6 +19,6 @@ data "terraform_remote_state" "networking_tfstate" {
     bucket = "nathan-tmp-tf-state"
     key = "networking.tfstate"
     region = "eu-west-1"
-    profile = "spotim-dev"
+    profile = "nathan-tmp"
   }
 }

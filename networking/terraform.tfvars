@@ -1,7 +1,7 @@
 # Terrraform Configuration
 aws_region = "eu-west-1"
 
-aws_profile = "spotim-dev"
+aws_profile = "nathan-tmp"
 
 # VPC Details
 vpc_name = "nathan-temp-vpc"

@@ -1,6 +1,6 @@
 # Terrraform Configuration
 aws_region = "eu-west-1"
-aws_profile = "spotim-dev"
+aws_profile = "nathan-tmp"
 
 app_port = "80"
 ecs_name = "nathan_ecs_cluster"

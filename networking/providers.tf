@@ -8,6 +8,6 @@ terraform {
     bucket  = "nathan-tmp-tf-state"
     key     = "networking.tfstate"
     region  = "eu-west-1"
-    profile = "spotim-dev"
+    profile = "nathan-tmp"
   }
 }
