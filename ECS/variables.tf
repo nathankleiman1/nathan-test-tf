@@ -30,3 +30,18 @@ variable "task_image" {
 variable "task_version" {
   type = "string"
 }
+variable "task_name" {
+  type = "string"
+}
+variable "max_cpu" {
+  type = "string"
+}
+variable "min_cpu" {
+  type = "string"
+}
+variable "min_tasks" {
+  type = "string"
+}
+variable "max_tasks" {
+  type = "string"
+}
