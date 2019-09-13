@@ -8,5 +8,6 @@ ecs_name = "nathan_ecs_cluster"
 task_cpu = "256"
 task_mem = "512"
 task_desired = "1"
-task_image = "nginx"
+task_image = "nathankleiman1/nginx"
+task_version = "1"
 

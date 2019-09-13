@@ -27,3 +27,6 @@ variable "task_desired" {
 variable "task_image" {
   type = "string"
 }
+variable "task_version" {
+  type = "string"
+}

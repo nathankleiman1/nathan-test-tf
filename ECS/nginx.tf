@@ -9,7 +9,7 @@ resource "aws_ecs_task_definition" "app" {
 [
   {
     "cpu": ${var.task_cpu},
-    "image": "${var.task_image}",
+    "image": "${var.task_image}:${var.task_version}",
     "memory": ${var.task_mem},
     "name": "nginx",
     "networkMode": "awsvpc",
